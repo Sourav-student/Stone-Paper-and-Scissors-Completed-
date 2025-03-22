@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Play the classic Rock, Paper, Scissors game online! Challenge your friends and test your luck in this fun and exciting game.">
+    <meta name="keywords"
+        content="Rock Paper Scissors, Play Game Online, Fun Games, Challenge Friends, Free Online Games">
+    <meta name="author" content="Your Name or Website Name">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Rock Paper Scissors - Play & Challenge Friends!">
+    <meta property="og:description"
+        content="Enjoy a quick and fun game of Rock, Paper, Scissors online! Challenge your friends or play against AI.">
+    <meta property="og:image" content="https://yourwebsite.com/preview-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rock Paper Scissors - Play Now!">
+    <meta name="twitter:description"
+        content="Test your luck in this fun Rock, Paper, Scissors game! Play online with friends.">
+    <meta name="twitter:image" content="https://yourwebsite.com/preview-image.jpg">
+    <title>Rock Paper and Scissors-Let's Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <h1>Rock Paper and Scissors</h1>
+        <div class="sty1">
+            <span style="font-size: 30px;">Score : </span>
+            <span id="score" style="font-size: 30px;"></span>
+        </div>
+        <div style="display: flex;gap: 30px;">
+            <div class="sty1 sty2">
+                <p>My Choose</p>
+                <span id="myValue" style="font-size: 45px; cursor: pointer;transition: all 2s linear;">
+
+                </span>
+            </div>
+            <div class="sty1 sty2">
+                <p>Computer Choose</p>
+                <span id="comValue" style="font-size: 45px; cursor: pointer;transition: all 2s linear;">
+                </span>
+            </div>
+        </div>
+        <div class="values">
+            <button id="stone"><span>✊🏼</span></button>
+            <button id="paper"><span>🤚🏼</span></button>
+            <button id="scissors"><span>✌🏼</span></button>
+        </div>
+        <div id="whoWin" style="font-size: 30px; cursor: pointer;"></div>
+        <button id="restart">Restart</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
